@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trust Dental Clinic</title>
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <!-- Шапка сайта -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">A.A.D Dental</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Главная
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>О клинике
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Услуги
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Галерея
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Контакты
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Кнопка для переключения темы (светлая/тёмная) -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+    <main class="main">
+      <!--========================= Главная (Home) =====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <!-- Соцсети или контакты (при необходимости) -->
+            <div class="home__social">
+              <!-- Уберите или замените при желании -->
+              <a
+                href="#contact"
+                class="home__social-icon"
+              >
+                <i class="uil uil-calling home__icon"></i>
+              </a>
+
+              <a
+                href="#contact"
+                class="home__social-icon"
+              >
+                <i class="uil uil-envelope-alt home__icon"></i>
+              </a>
+            </div>
+
+            <!-- Изображение (логотип/фото клиники) -->
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <!-- Подставьте фото или логотип -->
+                  <image
+                    class="home__blob-img"
+                    x="-50"
+                    y="-46"
+                    xlink:href="assets/img/test1.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <!-- Основная информация на главной -->
+            <div class="home__data">
+              <h1 class="home__title">Добро пожаловать</h1>
+              <h3 class="home__subtitle">
+                Ваша улыбка – наша забота
+              </h3>
+              <p class="home__description">
+                Мы предлагаем полный спектр стоматологических услуг, используя современное оборудование и профессиональный подход к каждому пациенту.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Связаться с нами
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Прокрутите вниз</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= О клинике (About) ========================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">О нас</h2>
+        <span class="section__subtitle">Почему выбирают нас</span>
+
+        <div class="about__container container grid">
+          <!-- Замените на актуальное фото клиники/кабинета -->
+          <img src="assets/img/test2.jpg" alt="Фото клиники" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Стоматологическая клиника <strong>Trust Dental</strong> находится в
+              самом сердце Чиланзарского района. Наша команда квалифицированных
+              врачей-стоматологов и современное оборудование позволяют
+              проводить полный комплекс процедур: от профилактики и лечения до
+              протезирования и имплантации. Мы ценим здоровье и комфорт
+              каждого пациента и стремимся к безупречным результатам.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">25+</span>
+                <span class="about__info-name">Лет успешной <br />работы</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">5000+</span>
+                <span class="about__info-name">Довольных <br />пациентов</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">10+</span>
+                <span class="about__info-name">Сотрудников <br />клиники</span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+ <!--===================== Услуги (Services) =====================-->
+<section class="skills section" id="services">
+  <h2 class="section__title">Услуги</h2>
+  <span class="section__subtitle">Что мы предлагаем</span>
+
+  <div class="skills__container container grid">
+
+    <!-- 1: Лечение зубов -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-medical-square-full skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Лечение зубов</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Быстрое и бережное лечение кариеса, пульпита и других проблем
+            с зубами с использованием современных материалов.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth1.jpg" alt="Лечение зубов" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 2: Удаление зубов -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-medical-alt skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Удаление зубов</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Безболезненное удаление зубов любой сложности,
+            включая ретинированные зубы и сложные хирургические случаи.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth2.jpg" alt="Удаление зубов" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 3: Отбеливание зубов -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-smile-beam skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Отбеливание зубов</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Профессиональные системы отбеливания без вреда
+            для эмали, гарантируя сияющую и здоровую улыбку.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth3.jpg" alt="Отбеливание зубов" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 4: Протезирование -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-tooth-alt skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Протезирование</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Установка коронок, мостов и съемных протезов для полного
+            восстановления функциональности и эстетики зубов.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth4.jpg" alt="Протезирование" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 5: Имплантация -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-plus-circle skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Имплантация</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Установка качественных зубных имплантов для долговечной
+            замены отсутствующих зубов и сохранения челюстной кости.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth5.jpg" alt="Имплантация" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 6: Чистка зубов -->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <!-- Example icon. You can change if “uil-brush” doesn’t exist -->
+        <i class="uil uil-brush skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Чистка зубов</h1>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <p>
+            Профессиональная гигиена полости рта для удаления налета
+            и профилактики кариеса, сохраняя здоровье ваших зубов.
+          </p>
+        </div>
+        <div class="skills__image">
+          <img src="assets/img/service-teeth6.jpg" alt="Чистка зубов" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+      <!--=================== Галерея (Gallery) ===================-->
+      <section class="portfolio section" id="gallery">
+        <h2 class="section__title">Галерея</h2>
+        <span class="section__subtitle">Наши работы и клиника</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Пример слайдов галереи (добавьте свои фото) -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/inside2.jpg" class="portfolio__img" alt="Фото интерьера" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Интерьер клиники</h3>
+                <p class="portfolio__description">
+                  Современный и уютный интерьер для комфортного пребывания пациентов.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/inside1.jpg" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Современное оборудование</h3>
+                <p class="portfolio__description">
+                  Высокотехнологичные установки и инструменты для точной диагностики и эффективного лечения.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/inside3.jpg" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Современное оборудование</h3>
+                <p class="portfolio__description">
+                  Высокотехнологичные установки и инструменты для точной диагностики и эффективного лечения.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/inside4.jpg" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Современное оборудование</h3>
+                <p class="portfolio__description">
+                  Высокотехнологичные установки и инструменты для точной диагностики и эффективного лечения.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/inside5.jpg" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Современное оборудование</h3>
+                <p class="portfolio__description">
+                  Высокотехнологичные установки и инструменты для точной диагностики и эффективного лечения.
+                </p>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/outdoor1.JPG" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Вход в клинику</h3>
+                
+              </div>
+            </div>
+
+
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/outdoor3.JPG" class="portfolio__img" alt="Оборудование" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Вход в клинику</h3>
+                
+              </div>
+            </div>
+
+            <!-- Добавляйте больше слайдов по необходимости -->
+          </div>
+
+          <!-- Стрелки -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Пагинация -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+  
+
+<!--===================== Контакты (Contact) =====================-->
+<section class="contact section" id="contact">
+  <h2 class="section__title">Контакты</h2>
+  <span class="section__subtitle">Свяжитесь с нами</span>
+
+  <div class="contact__container container grid">
+    <!-- Left column: Phones, Telegram, WhatsApp, Address -->
+    <div>
+      <div class="contact__information">
+        <i class="uil uil-calling contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Телефон</h3>
+          <span class="contact__subtitle">
+            <a href="tel:+998908086671">+998 (90) 347-77-27</a><br/>
+            <a href="tel:+998909378181">+998 (97) 000-43-66</a><br/>
+            <a href="tel:+998909378182">+998 (33) 569-55-25</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="contact__information">
+        <i class="uil uil-telegram-alt contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Telegram</h3>
+          <span class="contact__subtitle">
+            <a href="https://t.me/dent1ad" target="_blank">
+              Написать в Telegram
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <div class="contact__information">
+        <i class="uil uil-whatsapp-alt contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Whatsapp</h3>
+          <span class="contact__subtitle">
+            <a href="https://wa.me/998335695525" target="_blank">
+              Написать в Whatsapp
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <div class="contact__information">
+        <i class="uil uil-map-marker contact__icon"></i>
+        <div>
+          <h3 class="contact__title">Адрес</h3>
+          <span class="contact__subtitle">
+            Чиланзарский район, массив Чиланзар,<br/>
+            1-й квартал, 8, Ташкент, Узбекистан
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right column: Embedded map + two new buttons below -->
+    <div class="contact__map-container">
+      <!-- Existing embedded Google Map -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.062298098189!2d69.22723309999999!3d41.285748600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b27adf3d307%3A0xb4b59b3cec2dddd0!2sTrust%20Dental%20Clinik!5e0!3m2!1sen!2s!4v1737285962538!5m2!1sen!2s"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <!-- New buttons to open external map apps -->
+      <div class="map__buttons">
+        <!-- Button: Google Maps -->
+        <a
+          href="https://maps.app.goo.gl/esxJw2cGGGAqS4Dw5"  
+          target="_blank"
+          class="button button--flex map__button"
+        >
+          <i class="fa-brands fa-google"></i> <!-- Font Awesome icon -->
+          <span>Открыть в Google Maps</span>
+        </a>
+
+        <!-- Button: Yandex Maps -->
+        <a
+          href="https://yandex.uz/maps/-/CHaveOOt" 
+          target="_blank"
+          class="button button--flex map__button"
+        >
+          <!-- If you have a Yandex icon from FontAwesome, you can use `fa-yandex` or `fa-yandex-international` -->
+          <i class="fa-brands fa-yandex"></i>
+          <span>Открыть в Яндекс.Картах</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    </main>
+
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">A.A.D Dental</h1>
+            <span class="footer__subtitle">Мы заботимся о вашей улыбке</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link">О нас</a>
+            </li>
+            <li>
+              <a href="#services" class="footer__link">Услуги</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Контакты</a>
+            </li>
+          </ul>
+
+          <!-- Соцсети (пример) -->
+          <div class="footer__socials">
+            <a
+              href="https://instagram.com/"
+              class="footer__social"
+              target="__blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://facebook.com/"
+              target="__blank"
+              class="footer__social"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; A.A.D Dental. Все права защищены</p>
+      </div>
+    </footer>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Подключение скриптов -->
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
